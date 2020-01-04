@@ -243,7 +243,8 @@ a[href].tag:visited {
 }
 
 .tag-title {
-  color: var(--primary-orange)
+  color: var(--primary-orange);
+  font-size: 1.25em;  
 }
 
 /* Warning */
