@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/home.njk
 title: Contact
 templateClass: tmpl-post
 eleventyNavigation:
@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 4
 ---
 
-I am a person that writes stuff.
+Feel free to reach out to me at sgyll@protonmail.com, on Twitter (@koabrook), and Dev.to (dev.to/shemthedev)

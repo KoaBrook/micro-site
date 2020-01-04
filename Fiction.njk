@@ -1,0 +1,11 @@
+---
+layout: layouts/home.njk
+title: Fiction
+permalink: /fiction/
+eleventyNavigation:
+  key: Fiction
+  order: 3
+---
+
+{% set postslist = collections.fiction %}
+{% include "postslist.njk" %}

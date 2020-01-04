@@ -7,25 +7,34 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --primary-blue: #338BD5;
+  --primary-orange: #ef5619;
 }
 * {
   box-sizing: border-box;
 }
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: sans-serif;
+  padding: 0rem;
+  margin: 0rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--darkgray);
   background-color: var(--white);
 }
+
+@media screen and (min-width: 600px){
+  body{
+    margin: 2vw;
+  }
+}
+
 p:last-child {
   margin-bottom: 0;
 }
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: 75em; /* 600px /16 */
 }
 p,
 .tmpl-post li {
@@ -38,7 +47,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 1rem;
+  padding: 1rem 0.25rem;
 }
 main :first-child {
   margin-top: 0;
@@ -116,13 +125,16 @@ pre {
 
 /* Header */
 .home {
-  padding: 0 1rem;
-  float: left;
-  margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  padding: 0 0rem;
+  margin-left: 1rem 0rem; /* 16px /16 */
+  font-size: 1.25em; /* 16px /16 */
 }
 .home :link:not(:hover) {
   text-decoration: none;
+}
+
+.head {
+  margin-left: 0.25rem;
 }
 
 /* Nav */
@@ -135,13 +147,37 @@ pre {
 .nav-item {
   display: inline-block;
   margin-right: 1em;
+  font-weight: 600;
+  text-decoration: none;
+  
 }
+.nav-item a[href]:hover {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--primary-blue);
+  color: var(--primary-orange);
+}
+
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
+  color: var(--primary-blue);
 }
+
 .nav-item-active {
   font-weight: 700;
-  text-decoration: underline;
+  font-size: 1em;
+  color: var(--primary-orange);
+}
+
+.nav-item-active a[href]:not(:hover) {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: var(--primary-orange);
+}
+
+.nav-item-active a[href]:hover {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: var(--primary-orange);
 }
 
 /* Posts list */
@@ -152,20 +188,24 @@ pre {
 }
 .postlist-item {
   counter-increment: start-from -1;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 .postlist-date,
 .postlist-item:before {
   font-size: 0.75em; /* 13px /16 */
   color: var(--darkgray);
-  
+  margin-left: 0.25rem;
 }
+
 .postlist-date {
   word-spacing: -0.5px;
 }
 .postlist-link {
   display: inline-block;
-  padding: 0.25em 0.1875em; /* 4px 3px /16 */
+  padding: 0em 0.1875em; /* 4px 3px /16 */
+  font-size: 1em; /* 19px /16 */
+  font-weight: 600;
+  font-style: italic;
 }
 .postlist-item-active .postlist-link {
   font-weight: bold;
@@ -190,16 +230,20 @@ h3 {
   vertical-align: text-top;
   text-transform: uppercase;
   font-size: 0.625em; /* 10px /16 */
-  padding: 1px 2px;
+  padding: 2px 4px;
   margin-left: 0.25em; /* 8px /10 */
   background-color: var(--red);
   color: var(--white);
-  border-radius: 0.1em; /* 3px /12 */
+  border-radius: 0.3em; /* 3px /12 */
   text-decoration: none;
 }
 a[href].tag,
 a[href].tag:visited {
   color: #fff;
+}
+
+.tag-title {
+  color: var(--primary-orange)
 }
 
 /* Warning */
