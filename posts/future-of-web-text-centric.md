@@ -15,14 +15,14 @@ Additionally, the overly data-heavy modern web is completely biased toward devel
 Finally, the P2P distributed web keeps growing in both conceptual importance and usability despite bandwidth bottlenecks and other technical limitations.
 A few questions
 
-Here are some theoretical questions borne from the cluttered nature of modern websites:
+###Here are some theoretical questions borne from the cluttered nature of modern websites:
 
     Is it viable to continue to adapt modern web philosophies from 240PX-width feature phones to 1080p monitors to 4K TVs?
     Is it viable to create UX that adapts from mouse and keyboard to T9 to screen-readers and more?
     Should websites look completely different between mobile and desktop layouts?
     How much "in the way" is really acceptable (in-line images, PIP videos, pop-up ads)?
 
-A path forward inspired by the past
+###A path forward inspired by the past
 
 In my opinion the solution to many of these problems is a shift away from a media-first Internet to small, low-bandwidth, lightning fast text-first websites. In fact, the trend among many developers and websites these days is largely text-content first. Text-based websites are fast, automatically flexible, easy to develop and maintain and force you to be creative.
 
