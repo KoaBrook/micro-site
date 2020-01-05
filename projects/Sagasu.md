@@ -1,7 +1,6 @@
 ---
 title: Sagasu
-description: Endless flight game with beautiful graphics and a
-serene atmosphere
+description: Endless flight game with beautiful graphics and a serene atmosphere
 url: https://playkiseki.itch.io/sagasu-hd
 source: /nosource
 tags:
