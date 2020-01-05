@@ -7,6 +7,7 @@ tags:
     - design
     - KaiOS
 layout: layouts/post.njk
+image: /img/ld-book-cover.png
 ---
 I've recently been exploring the emerging web experience thanks to Kai OS, a new breed of internet-connected feature phone. In emerging markets, hundreds of millions of users are now getting connected to the internet for the first time. Unfortunately the internet is quite a chore to browse on micro-browsers and tiny non-touch screens.
 

@@ -1,5 +1,5 @@
 ---
-title: ShemTheDev.com
+title: Airtable Portfolio
 description: eCommerce store for a successful Instagram artist-influencer
 url: https://shemthedev.com
 source: https://github.com/ShemTheDev/Airtable-Portfolio-Public

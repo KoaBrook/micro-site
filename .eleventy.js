@@ -14,7 +14,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(localImages, {
     distPath: '_site',
     assetPath: '/assets/img',
-    selector: 'a',
+    selector: 'img',
     verbose: false
   });
 

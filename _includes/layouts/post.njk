@@ -3,11 +3,17 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 <h3 class="home strong">{{ title }}</h3>
+<time class="postlist-date" datetime="{{ date | htmlDateString }}">Posted on {{ date | readableDate }}</time>
+<div class="tag-list">
 {% for tag in tags %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-{% endfor %} <br />
-<time class="postlist-date" datetime="{{ date | htmlDateString }}">Posted on {{ date | readableDate }}</time>
+  <div class="full-slant slant-meta">
+  <a href="{{ tagUrl | url }}">
+  <span class="slant-first"></span><span class="slant">{{ tag }}</span><span class="slant-after"></span>
+  </a>
+</div>
+{% endfor %}
+</div>
 {{ content | safe }}
 <p><a href="{{ '/' | url }}">← Home</a></p>
 
