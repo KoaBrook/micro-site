@@ -4,7 +4,7 @@ description: eCommerce store for a successful Instagram artist-influencer
 url: https://www.noverantale.com
 source: /nosource
 tags:
-  - portfolio
+  - Portfolio
   - eCommerce
   - Paid work
 layout: layouts/project.njk

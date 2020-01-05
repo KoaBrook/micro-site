@@ -7,4 +7,7 @@ eleventyNavigation:
   order: 5
 ---
 
-Feel free to reach out to me at sgyll@protonmail.com, on Twitter (@koabrook), and Dev.to (dev.to/shemthedev)
+Feel free to reach out to me:
+Email: sgyll@protonmail.com
+Twitter: [@koabrook](https://twitter.com/koabrook)
+Dev: dev.to/shemthedev

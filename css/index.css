@@ -289,6 +289,10 @@ a[href].direct-link:focus:visited,
   margin-bottom: 0.5em;
 }
 
+.tmpl-post ol {
+  padding-left: 15px;
+}
+
 /* Prism */
 code[class*="language-"], pre[class*="language-"] {
 	font-size: 14px;
@@ -307,7 +311,6 @@ code[class*="language-"], pre[class*="language-"] {
 	hyphens: none;
 	background: #272822;
   color: #f8f8f2;
-  max-width: 100%;
 }
 pre[class*="language-"] {
 	padding: 1.5em 0;

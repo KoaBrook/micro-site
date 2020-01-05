@@ -115,11 +115,11 @@ export default Entries
 
 In App.js, I wrapped my site in the EntryContextProvider component, which ensures that every page has access to the Airtable context.
 ```javascript
-          <EntryContextProvider>
-            <Switch>
-              <Route exact path="/" component={Entries} />
-            </Switch>
-          </EntryContextProvider>
+<EntryContextProvider>
+    <Switch>
+        <Route exact path="/" component={Entries} />
+    </Switch>
+</EntryContextProvider>
 ```
 
 Finally, I had the results I wanted! A simple list of all portfolio entries that were in my Airtable spreadsheet:
@@ -162,8 +162,10 @@ I just added a new field to the Airtable named "order" and a new code block. Wit
 
 ```javascript
 const { entries } = context
-                let sortedEntries = entries.sort(
-                    function(a,b){return a.fields.order - b.fields.order})
+    let sortedEntries = entries.sort(
+        function(a,b){
+            return a.fields.order - b.fields.order
+            })
 ```
 
 [Check out the live site here](https://shemthedev.netlify.com/)
