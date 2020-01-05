@@ -6,7 +6,6 @@ url: https://playkiseki.itch.io/sagasu-hd
 source: /nosource
 tags:
   - Gamedev
-  - Passion
   - Unity3D
   - Mobile
 layout: layouts/project.njk

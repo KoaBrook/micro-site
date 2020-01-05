@@ -1,6 +1,5 @@
 ---
-title: Smashesque - React-based Web App with Airtable
-backend
+title: Smashesque
 description: Website for discovering Smash Bros-like games
 url: https://www.smashesque.com
 source: https://github.com/ShemTheDev/Smashesque
