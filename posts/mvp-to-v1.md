@@ -16,7 +16,7 @@ I had a few requirements for this:
 4. The website itself should contain a simple list of my projects
 
 
-## MVP
+### MVP
 With my requirements set, I took to creating an MVP product. Since the website would be a list of my projects, the MVP was also a simple list of my projects publicly available online. I used Airtable for this. [Check out the MVP here](https://airtable.com/shre8qIxVeziaXfOQ/tblMvHba5g75ohHHM?blocks=hide).
 
 🖼️ [Airtable MVP: Click to view image](https://thepracticaldev.s3.amazonaws.com/i/swvnp5986qk00g673zs7.png)
@@ -24,11 +24,11 @@ With my requirements set, I took to creating an MVP product. Since the website w
 One of the great things about Airtable is how it automatically generates unique API documentation for every sheet and view in the base. This was the perfect springboard into the modular concept for the site, in which I wouldn't need any code to add new portfolio entries.
 
 
-## React web app
+### React web app
 I enjoy coding in React. I find the modular nature of components to be intuitive. I used React previously for [Smashesque.com](smashesque.com) and had a good time, so I went with it again. Bootstrap is my framework of choice for throwing together pretty sites so I chose to use it too.
 
 
-## Modular lists using Airtable
+### Modular lists using Airtable
 With the help of [Tania Rascia](https://dev.to/taniarascia)'s article on [Using Context API in React (Hooks and Classes)](https://www.taniarascia.com/using-context-api-in-react/), I used Axios and the Airtable API to grab my view of choice and all the rows, fields and content therein from my MVP Airtable. My implementation is a little messy, but it worked, so no problem!
 I started with EntryContexts.js which performs the API call and creates a context state containing the spreadsheet object.
 
@@ -127,13 +127,13 @@ Finally, I had the results I wanted! A simple list of all portfolio entries that
 🖼️ [Simple list: Click to view image](https://thepracticaldev.s3.amazonaws.com/i/cybsyolz0md43i9uq9kr.PNG)
 
 
-## Aesthetic challenges
+### Aesthetic challenges
 Many developers revel with minimal websites with lists of achievements and projects. A white colour scheme and emoji are both very popular. I enjoy being a bit contrarian and a total 90s kid, so I took inspiration from the new [SEGA MegaDrive Mini website](https://megadrivemini.sega.com/) and tried to match its look. Unfortunately, there's a lot of history, imagery and the theme of a retro console that helps bring the 90s Spaceship look together. Without these things (and a lack of artistic talent at my disposal) the results were less than inspiring. I realised that a dark theme for my portfolio was somewhat uninviting and less friendly than I wanted it to be, so I ended up going with a light theme. I wanted to keep some semblence of character, so I kept a scrolling background grid and gave the primary container a "sheet of paper" look. At this point I decided to add images for each project and an emoji to identify what kind of project each is, again all contained in the spreadsheet and called with the Airtable API. I hope the emoji are intuitive to anyone viewing the portfolio but the verdict is still out on that. Once everything was styled, I was extremely happy with the outcome:
 
 🖼️ [Styled list: Click to view image](https://thepracticaldev.s3.amazonaws.com/i/vttiq9v63fwl0p0jwmva.PNG)
 
 
-## Final Touches
+### Final Touches
 Since my website was made from scratch, I considered it an addition to my portfolio. However, I didn't want it to be added to the list with a link to itself. Therefore I added a ❔ icon in the upper-left which triggered a popover that gives more information on the site. This article will be added onto it, too:
 
 🖼️ [Popover: Click to view image](https://thepracticaldev.s3.amazonaws.com/i/01gy48dmiozz2ke2lbrw.PNG)
@@ -152,12 +152,12 @@ And that's about it for my V1 portfolio website! To add new projects I just add 
 As you can see, I hit all four of my requirements! It was a great journey and an interesting project. I learned the Airtable API, the importance of validation and plenty of design quirks. I'm very happy with the end result!
 
 
-## What's next?
+### What's next?
 I enjoy the site as it is and will most likely keep it simple for now. I may use more spreadsheets to add additional list-based sections to the site- articles, testimonials, cat photos... whatever I want to add, I can do so with very little code- Clone the `Entries`, `EntryContextProvider` and `ListEntry` components, replacing the Airtable API link and making any styling changes I want to.
 Airtable is not ideal for, say, entire blog posts but I'm actually curious about whether it could be done. Imagine an entire site with an Airtable backend? It's possible and perhaps I'll dabble in that idea in the future. For now, I'm happy to mark this V1 project complete! 
 
 
-## BONUS 
+### BONUS 
 I just added a new field to the Airtable named "order" and a new code block. With this new snippet, I can adjust the order in which the list entries appear by adding an order value in Airtable!
 
 ```javascript
