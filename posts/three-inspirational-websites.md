@@ -31,4 +31,4 @@ Lyndsey is rightfully a legend around these parts and her website is nothing sho
 
 🖼️ [lyndseyscott.com: Click to view image](https://thepracticaldev.s3.amazonaws.com/i/2yuytgikmt288axn4dtr.png)
 
-Do you know any developer websites which adapt perfectly to minimal screen sizes? Let me know down below!
+Do you know any developer websites which adapt perfectly to minimal screen sizes?
