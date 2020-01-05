@@ -16,9 +16,7 @@ Right off the bat, I've come up with a few tips to make browsing on a tiny Kai O
 That's right, my first unusual tip is to totally lose your site's header in favour of the site's title which is shown permanently on the address bar. Perhaps a little extreme, but your logo alone might take up over half the screen in some cases! If you really want to keep a header, try to make it as small as possible, preferable no larger in height than one line of test. Also lose the image and make it text if possible.
 
 ### Turn your hamburger menu back into text-links
-The less clicks needed to navigate your site on Kai OS, the better. I propose ditching the hamburger menu on micro-sizes and opting for plaintext links instead. Keep the text small and allow only up to three links per row.
-
-> More scrolling is better than more clicks
+The less clicks needed to navigate your site on Kai OS, the better. I propose ditching the hamburger menu on micro-sizes and opting for plaintext links instead. Keep the text small and allow only up to three links per row. More scrolling is better than more clicks
 
 ### Hide images behind links
 You want your page to consume as little data as possible to be considerate of data rates in developing countries. Hide your images behind plaintext links and don't load them until they're requested. This also makes your page more scrollable and easier to navigate.

@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+<h3 class="home strong">{{ title }}</h3>
+{% for tag in tags %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+{% endfor %} <br /><br />
+<div class="project-list">
+{{ content | safe }}
+</div>
+<p><a href="{{ url }}" target="blank">See it</a> | <a href="{{ source }}">Source</a></p>
+<p><a href="{{ '/' | url }}">← Home</a></p>
+

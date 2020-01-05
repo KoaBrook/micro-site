@@ -5,11 +5,18 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const localImages = require("eleventy-plugin-local-images");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(localImages, {
+    distPath: '_site',
+    assetPath: '/assets/img',
+    selector: 'a',
+    verbose: false
+  });
 
   eleventyConfig.setDataDeepMerge(true);
 
