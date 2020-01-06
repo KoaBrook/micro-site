@@ -90,7 +90,7 @@ body {
     display: inline-block;
     background-color: var(--primary-blue);
     height: 1rem;
-    width: 4rem;
+    max-width: 4rem;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
@@ -104,6 +104,7 @@ body {
     height: 1rem;
     width: 1rem;
     vertical-align: bottom;
+    
   }
   
   .slant-after {
@@ -153,6 +154,11 @@ header:after {
   display: table;
   clear: both;
 }
+
+header ul {
+  margin-top: 0.25rem;
+}
+
 table {
   margin: 1em 0;
 }
@@ -219,7 +225,7 @@ pre {
 /* Header */
 .home {
   padding: 0 0rem;
-  margin-left: 1rem 0rem; /* 16px /16 */
+  margin: 0rem 0rem; /* 16px /16 */
   font-size: 1.25em; /* 16px /16 */
 }
 .home :link:not(:hover) {
@@ -287,7 +293,7 @@ pre {
 .postlist-item:before {
   font-size: 0.75em; /* 13px /16 */
   color: var(--darkgray);
-  margin-left: 0.25rem;
+  margin-left: 0rem;
 }
 
 .postlist-date {

@@ -4,7 +4,7 @@ description: Elevasion turned out to be a completely different and much smaller 
 date: 2019-11-27
 tags: 
     - gamedev
-    - game maker studio
+    - game maker
     - scope
 layout: layouts/post.njk
 ---
