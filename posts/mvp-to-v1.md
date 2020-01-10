@@ -168,7 +168,7 @@ const { entries } = context
             })
 ```
 
-[Check out the live site here](https://shemthedev.netlify.com/)
+[Check out the live site here](https://shemthedev.com/)
 [Check out the Airtable backend (MVP) here](https://airtable.com/shre8qIxVeziaXfOQ/tblMvHba5g75ohHHM?blocks=hide)
 [Check out my Github here](https://github.com/ShemTheDev)
 

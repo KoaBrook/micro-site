@@ -1,16 +1,16 @@
 {
-  "title": "Shem the Dev",
-  "url": "https://shemthedev.com",
-  "description": "Web Developer & Customer Success Professional",
+  "title": "Koa Brook",
+  "url": "https://koabrook.com",
+  "description": "Web Developer, Writer, Oneironaut",
   "feed": {
-    "subtitle": "Web Developer & Customer Success Professional",
+    "subtitle": "Web Developer & Oneironaut",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://shemthedev.com/feed/feed.xml",
-    "id": "https://shemthedev.com/"
+    "url": "https://koabrook.com/feed/feed.xml",
+    "id": "https://koabrook.com/"
   },
   "author": {
-    "name": "Shem Gyll",
-    "email": "sgyll@protonmail.com"
+    "name": "Koa Brook",
+    "email": "koabrook@gmail.com"
   }
 }
